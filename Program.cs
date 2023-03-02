@@ -18,7 +18,7 @@ Console.WriteLine("Введите х");
 
 int x = Convert.ToInt32(Console.ReadLine());
 
-for (d++; d < 2; x++,d++)
+for (d++; d < 2; d++)
 {
     Console.WriteLine($"{a* Math.Pow(x , x) * b * x + c}");
     Console.Write($"{x}:");
